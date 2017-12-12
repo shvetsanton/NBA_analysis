@@ -3,7 +3,7 @@ NBA Statistical Analysis
 
 ![nba_logo](https://user-images.githubusercontent.com/21130799/33872191-b6f66988-deca-11e7-8d83-4d6ead3d1e66.jpg)
 
-For this project I set out to increase my chances in winning my fantasy league this year and next!
+For this project I set out to increase my chances of winning my fantasy league this year and next!
 
 Along the way I've spotted and learned some interesting trends that have occured in the NBA over the seasons.
 
@@ -12,7 +12,7 @@ Along the way I've spotted and learned some interesting trends that have occured
 - Fitting Distributions
 - Interesting Trends
 - How to draft the best team
-- How to maintain the roster
+- How to maintain the best roster
 
 
 
@@ -33,7 +33,7 @@ Dataset Summary:
         
 - Drop all rows that do not contain all of those values
 
-- We are left with 15,107 rows and 26 features in the stats dataset
+- We are left with 15,107 rows and 26 features in the stats dataset. First season: 1980
 
 Data Example:
 ![screen shot 2017-12-11 at 11 30 57 pm](https://user-images.githubusercontent.com/21130799/33872358-6817c748-decb-11e7-8674-a797355b257d.png)
@@ -67,7 +67,7 @@ Below is an example for the Average Points during the 2017 season:
 
 ## Game Progression:
 
-Besides the more obvious progressions such as players peaking at a certain age and then declining linearly lets take a look at how the game has changed as a whole!
+The more obvious progressions are players peaking at a certain age and then declining linearly, but lets take a look at how the game has changed as a whole!
 
 Below is a set of distributions outlining the progression in the fraction of 3-Pointers over all FG attempts over the years:
 
@@ -82,7 +82,7 @@ Now lets take a look at the 3-Point Percentage distributions. These have been No
 
 After looking at the distribution progression of 3-Point Percentages in the league I noticed that it might be possible to descrive the distribution in a more complex way by joining two Gaussian distributions.
 
-This way we obtain a parametric way to describe pdf of the distribution instead of just utilizing a kde to smooth over the distribution: 
+This way we obtain a parametric way to describe the pdf of the distribution instead of just utilizing a kde to smooth over the distribution: 
 
 Here is one of the results:
 
@@ -92,7 +92,7 @@ Here is one of the results:
 
 ## How to maintain the Best Roster during the Season:
 
-You need to keep up with the league and try to add the best Free Agents or make good Trades!
+You need to keep up with the league and try to add the best Free Agents or make good trades!
 
 ### Can we trust early season statistics? Is there enough data in the begining of the season to tell a good overall player apart from a player that just had a rare hot streak?
 
