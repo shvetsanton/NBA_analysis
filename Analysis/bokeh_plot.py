@@ -8,8 +8,8 @@ from bokeh.io import curdoc
 from scipy.stats import beta
 
 # Read in the Datasets
-df_players = pd.read_csv('Data/Players.csv')
-df_stats = pd.read_csv('Data/Seasons_Stats.csv')
+df_players = pd.read_csv('../Data/Players.csv')
+df_stats = pd.read_csv('/Users/ashvets/github/NBA_analysis/Data/Seasons_Stats.csv')
 
 
 df_stats = df_stats[['Year', 'Player', 'Pos', 'Age', 'Tm', 'G', 'TS%', 'FG', 'FGA', 'FG%', '3P', '3PA', 
